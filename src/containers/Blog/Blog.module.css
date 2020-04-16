@@ -1,0 +1,23 @@
+.Blog {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Blog header {
+  width: 100%;
+}
+
+.Blog h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #18ab29;
+  margin: 20px;
+}
+
+@media (max-width: 1160px) {
+  .Posts {
+    flex-direction: column;
+  }
+}

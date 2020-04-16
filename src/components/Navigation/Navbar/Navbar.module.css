@@ -1,0 +1,23 @@
+.Navbar {
+  width: 100%;
+}
+
+.Navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Navbar ul li {
+  padding: 15px;
+}
+
+.Navbar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar a:hover,
+.Navbar .active {
+  border-bottom: 3px solid green;
+}
